@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  line-height: 1.4;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header-area {
+  box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+  position: sticky;
+  top: 0;
+  margin-bottom: 32px;
+  background: #fff;
+  padding: 10px;
+  z-index: 50;
+}
+.header-area img {
+  cursor: pointer;
+}
+.navigation-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation-area .berg-area {
+  font-size: 32px;
+  cursor: pointer;
+}
+
+/* hero-area start */
+.delicious-area {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.delicious-content {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.delicious-content .discount {
+  background-color: #149f39;
+  color: #fff;
+  padding: 5px 10px;
+  align-self: flex-start;
+  border-radius: 4px;
+}
+.delicious-content h1 {
+  font-size: 72px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+.delicious-content .delicious-btn {
+  background-color: #ffc066;
+  align-self: flex-start;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+.delicious-content .delicious-btn:hover {
+  opacity: 0.8;
+}
+.cash-area {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+.cash-area .col-1-3 {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+.cash-area .col-1-3 img {
+  width: 72px;
+}
+.border-area {
+  border: 1px solid #ccc;
+  margin: 20px 0px;
+}
+.explore-menu-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  margin: 50px 0px;
+}
+.explore-menu-area .our-menu {
+  background-color: #149f39;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  align-items: center;
+}
+.main-explore .explore-1 {
+  grid-area: EX1;
+}
+.main-explore .explore-2 {
+  grid-area: EX2;
+}
+.main-explore .explore-3 {
+  grid-area: EX3;
+}
+.main-explore .explore-4 {
+  grid-area: EX4;
+}
+.main-explore .explore-5 {
+  grid-area: EX5;
+}
+.main-explore .explore-6 {
+  grid-area: EX6;
+}
+.main-explore .explore-7 {
+  grid-area: EX7;
+}
+.explore-menu-area .main-explore {
+  display: grid;
+  gap: 10px;
+  grid-template-areas: "EX1 EX1 EX2 EX3"
+  "EX1 EX1 EX2 EX7"
+  "EX4 EX5 EX6 EX7";
+}
+.explore-menu-area .explore-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+.explore-menu-area .explore-img:hover {
+  transform: scale(1.05);
+}
+/* footer-area star */
+
+.footer-area {
+  background-color: #fff0db;
+}
+.footer-logo img {
+  cursor: pointer;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.footer-area h3 {
+  color: #808080;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.main-support-area ul li {
+  list-style: none;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.follow-us-area input {
+  padding: 5px 40px;
+  margin-bottom: 10px;
+}
+.icon-area {
+  display: flex;
+  gap: 17px;
+  font-size: 35px;
+}
+.icon-area .fa {
+  cursor: pointer;
+}
+
+
+

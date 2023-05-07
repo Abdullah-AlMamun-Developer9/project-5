@@ -1,0 +1,33 @@
+
+@media screen and (max-width: 786px) {
+    .navigation-area .berg-area {
+        font-size: 26px;
+    }
+    .delicious-area {
+        flex-direction: column;
+    }
+    .delicious-area .delicious-img {
+        display: flex;
+        justify-content: center;
+    }
+    .delicious-area .delicious-img img {
+        width: 80%;
+    }
+    .delicious-content {
+        gap: 10px;
+        padding: 0px 20px;
+    }
+    .delicious-content h1 {
+        font-size: 32px;
+    }
+    .cash-area, .col-1-3 {
+        flex-direction: column;
+    }
+    .main-explore {
+        padding: 10px;
+    }
+    .footer-content {
+        flex-direction: column;
+    }
+}
+    
